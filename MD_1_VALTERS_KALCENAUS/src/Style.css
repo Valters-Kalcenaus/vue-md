@@ -1,0 +1,152 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.UserText {
+    border-right: white solid 1px;
+    padding-right: 8px;
+}
+
+.avatar {
+    border-radius: 50%;
+    max-width: 30px;
+}
+
+
+body {
+    background-color: #111;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.header-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 40px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+}
+
+
+.button {
+    background-color: #9a6fdb;
+    padding: 20px;
+    border-radius: 20px;
+    max-height: 20px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+}
+
+.button:hover {
+    background-color: #c0a1dd;
+    color: #241e33;
+}
+
+.logo {
+margin-top: 10px;
+margin-bottom: 10px;
+    width: 50px;
+    height:50px;
+
+}
+
+.obj-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+header .login-btn {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+header .login-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px); 
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+.active {
+    background-color: #9743AD !important;
+    
+}
+
+.navigation button {
+    background-color: #111;
+    border: none;
+    color: #FFF;
+    text-align: left;
+    margin: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.NavBox {
+    width: 350px;
+    padding: 20px;
+}
+
+.Page {
+    width: 100%;
+    display: flex;
+}
+
+.content {
+    padding: 20px;
+}
+
+.AboutMeLine {
+    display: flex;
+}
+
+.LightText {
+    color: #ccc;
+    margin-right: 5px;
+    font-weight: 100;
+}
